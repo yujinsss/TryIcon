@@ -29,27 +29,38 @@
         private void InitializeComponent()
         {
             this.btnTray = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnTray
             // 
             this.btnTray.Location = new System.Drawing.Point(12, 12);
             this.btnTray.Name = "btnTray";
-            this.btnTray.Size = new System.Drawing.Size(289, 136);
+            this.btnTray.Size = new System.Drawing.Size(385, 100);
             this.btnTray.TabIndex = 0;
             this.btnTray.Text = "트레이로 이동";
             this.btnTray.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(12, 125);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(385, 26);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Developed by 3199 ㅇㅇㅇ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(313, 160);
+            this.ClientSize = new System.Drawing.Size(409, 160);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnTray);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "트레이 아이콘";
+            this.Text = "트레이 아이콘 by 3199 ㅇㅇㅇ";
             this.ResumeLayout(false);
 
         }
@@ -57,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnTray;
+        private System.Windows.Forms.Label label1;
     }
 }
 
